@@ -24,3 +24,9 @@ You can run my backend using this command.
 cd build/libs
 java -jar hello-spring-0.0.1-SNAPSHOT.jar
 ```
+
+# My Develop Log
+
+You can check out my developing logs on github
+[frontend](https://github.com/gyunrinkle/web_programming_lab_final_project)
+[backend](https://github.com/gyunrinkle/hello-spring)
