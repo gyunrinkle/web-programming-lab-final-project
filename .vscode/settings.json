@@ -1,3 +1,4 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'BlexMono NF', 'D2Coding', Menlo, Monaco, 'Courier New', monospace"
 }
