@@ -12,6 +12,7 @@ This website is for displaying lots of chirstmas cakes for sale on the internet 
 You can run my frontend using this command.
 
 ```bash
+cd app/
 npm install
 npm start
 ```

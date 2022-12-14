@@ -5,6 +5,7 @@ import data from './data.js';
 import { Card } from './components/Card.js';
 import { Detail } from './pages/Detail.js'
 import { Routes, Route, Link, useNavigate, Outlet } from 'react-router-dom';
+import axios from 'axios';
 
 function App() {
 
@@ -46,6 +47,12 @@ function App() {
         } />
         <Route path='*' element={<div>404 error</div>} />
       </Routes>
+
+      <button onClick={() => {
+        fetch("https://port-0-hello-spring-3xcah2glbjfmfti.gksl2.cloudtype.app/cake_lists")
+          .then(response => response.json())
+          .catch(error => console.log('error'.error));
+      }}>버튼</button>
 
 
     </div >
